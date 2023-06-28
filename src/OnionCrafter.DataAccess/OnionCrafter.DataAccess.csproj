@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Description>Provides a set of interfaces for managing data access and creating a higher layer of abstraction based on EntityFramework Core.</Description>
+	  <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.DataAccess</RepositoryUrl>
+
+	  <Copyright>Copyright 2023 Dtopiast</Copyright>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+	  <PackageTags>DDD onion-arquitecture efcore data-access</PackageTags>
+	  <RepositoryType>git</RepositoryType>
+	  <Authors>Dtopiast</Authors>
+
+	  <Title>OnionCrafter.DataAccess</Title>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <FileVersion>$(VersionPrefix)</FileVersion>
+	  <Version>$(VersionPrefix)</Version>
+	  <PackageIcon>JustLogo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="OnionCrafter.Base" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
