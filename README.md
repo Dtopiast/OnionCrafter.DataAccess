@@ -1,5 +1,9 @@
 # OnionCrafter.DataAccess
 
+[![NuGet](https://img.shields.io/nuget/v/OnionCrafter.DataAccess.svg)](https://www.nuget.org/packages/OnionCrafter.DataAccess/)
+
+![](https://github.com/Dtopiast/OnionCrafter.DataAccess/blob/main/Images/Logo.png)
+
 OnionCrafter.DataAccess es una librería que proporciona un conjunto de interfaces para gestionar el acceso a datos y crear una capa de abstracción superior basada en Entity Framework Core.
 
 ## Descripción
