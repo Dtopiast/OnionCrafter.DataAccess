@@ -17,7 +17,7 @@
 	  <Title>OnionCrafter.DataAccess</Title>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
 	  <FileVersion>$(VersionPrefix)</FileVersion>
 	  <Version>$(VersionPrefix)</Version>
@@ -27,6 +27,10 @@
 
   <ItemGroup>
     <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
