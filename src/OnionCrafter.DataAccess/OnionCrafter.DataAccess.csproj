@@ -22,10 +22,15 @@
 	  <FileVersion>$(VersionPrefix)</FileVersion>
 	  <Version>$(VersionPrefix)</Version>
 	  <PackageIcon>JustLogo.png</PackageIcon>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
